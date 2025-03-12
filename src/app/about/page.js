@@ -2,23 +2,12 @@
 
 import { FaBullseye, FaEye, FaDumbbell } from 'react-icons/fa';
 import Image from 'next/image';
-import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export default function About() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Navigation Bar */}
-      <Navbar />
-
-      {/* About Content */}
-      <section className="py-12 px-6">
-        <h1 className="text-4xl font-bold">About Us</h1>
-        <p className="mt-4 text-lg text-gray-600">
-          Wadeford Information System is a modern school information platform designed to empower education for the future. Our mission is to provide a comprehensive and user-friendly portal for school information and management.
-        </p>
-      </section>
-
+      
       <div className="container mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold text-center mb-6">Start your childrens journey to a better future life</h1>
         
@@ -56,8 +45,6 @@ export default function About() {
         </div>
       </div>
 
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }
