@@ -41,7 +41,7 @@ export default function Home() {
       {/* Three Column Section */}
       <section className="py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
-          { title: 'Huge Campus', image: '/assets/campus.jpg', text: 'Our School has a very big campus area for students to play outdoor games. It\'s important to improve their physical body of students, school conduct PT (Physical Training) event on every Saturday.' },
+          { title: 'Huge Campus', image: '/assets/campus.jpg', text: 'Our School has a very big campus area for students to play outdoor games. It&apos;s important to improve their physical body of students, school conduct PT (Physical Training) event on every Saturday.' },
           { title: 'Comfortable Classrooms', image: '/assets/classroom.jpg', text: 'All the latest facility are provided by Wadeford, the school has big buildings with advanced classroom where students can sit comfortable and study to make their future bride.' },
           { title: 'Experienced Teachers', image: '/assets/teachers.jpg', text: 'All the faculties are extremely intelligent and supportive. They teach every student very transparently and friendly. All the teachers are well qualified and expert in their subjects.' }
         ].map((item, index) => (
