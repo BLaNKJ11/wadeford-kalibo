@@ -9,6 +9,7 @@ const slides = [
   { image: '/assets/hero-bg3.jpg', title: 'Shape the Future', text: 'Empowering students and teachers alike.' }
 ];
 
+
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
