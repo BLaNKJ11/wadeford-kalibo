@@ -35,15 +35,15 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold">Follow Us</h3>
           <div className="flex flex-col items-center md:items-start space-y-3 mt-2">
-            <Link href="https://facebook.com/wadeford" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
+            <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
               <FaFacebook className="text-2xl" />
               <span>facebook.com/wadeford</span>
             </Link>
-            <Link href="https://twitter.com/wadeford" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
+            <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
               <FaTwitter className="text-2xl" />
               <span>twitter.com/wadeford</span>
             </Link>
-            <Link href="https://instagram.com/wadeford" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
+            <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
               <FaInstagram className="text-2xl" />
               <span>instagram.com/wadeford</span>
             </Link>
