@@ -5,6 +5,7 @@ import "./globals.css";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/Footer";
+import NavigationMenu from "@/components/NavigationMenu";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,7 +50,7 @@ export default function RootLayout({ children }) {
 
         {/* Footer */}
         <Footer />
-
+        <NavigationMenu />
       </body>
     </html>
   );
