@@ -4,11 +4,10 @@ import { useState, useEffect } from 'react';
 import Footer from '@/components/Footer';
 
 const slides = [
-  { image: '/assets/hero-bg1.JPG', title: 'Empowering Education for the Future', text: 'Your one-stop portal for school information and management.' },
-  { image: '/assets/hero-bg2.JPG', title: 'Innovate & Learn', text: 'Bringing modern technology into education.' },
-  { image: '/assets/hero-bg3.JPG', title: 'Shape the Future', text: 'Empowering students and teachers alike.' }
+  { image: '/assets/hero-bg1.jpg', title: 'Empowering Education for the Future', text: 'Your one-stop portal for school information and management.' },
+  { image: '/assets/hero-bg2.jpg', title: 'Innovate & Learn', text: 'Bringing modern technology into education.' },
+  { image: '/assets/hero-bg3.jpg', title: 'Shape the Future', text: 'Empowering students and teachers alike.' }
 ];
-
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -23,7 +22,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Slider */}
-      <section className="relative w-full h-[90vh] flex items-center justify-center text-center text-white overflow-hidden">
+      <section className="relative w-full h-[90vh] flex items-center justify-center text-center text-white overflow-hidden z-10">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -42,7 +41,7 @@ export default function Home() {
       {/* Three Column Section */}
       <section className="py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
-          { title: 'Huge Campus', image: '/assets/campus.jpg', text: 'Our School has a very big campus area for students to play outdoor games. It is important to improve their physical body of students, school conduct PT (Physical Training) event on every Saturday.' },
+          { title: 'Huge Campus', image: '/assets/campus.jpg', text: 'Our School has a very big campus area for students to play outdoor games. It&apos;s important to improve their physical body of students, school conduct PT (Physical Training) event on every Saturday.' },
           { title: 'Comfortable Classrooms', image: '/assets/classroom.jpg', text: 'All the latest facility are provided by Wadeford, the school has big buildings with advanced classroom where students can sit comfortable and study to make their future bride.' },
           { title: 'Experienced Teachers', image: '/assets/teachers.jpg', text: 'All the faculties are extremely intelligent and supportive. They teach every student very transparently and friendly. All the teachers are well qualified and expert in their subjects.' }
         ].map((item, index) => (
@@ -55,8 +54,6 @@ export default function Home() {
           </div>
         ))}
       </section>
-
-     
     </div>
   );
 }
