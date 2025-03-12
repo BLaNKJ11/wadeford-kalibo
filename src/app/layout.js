@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         
         {/* Navigation Bar */}
-        <nav className="bg-card shadow-md py-4 px-6 flex justify-between items-center">
+        <nav className="bg-card shadow-md py-4 px-6 flex justify-between items-center fixed top-0 left-0 w-full z-50">
           <h1 className="text-2xl font-bold">WADEFORD</h1>
           <ul className="flex space-x-6 items-center">
             <li><Link href="/" className="px-3 py-2 rounded">Home</Link></li>
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
         </nav>
 
         {/* Page Content */}
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow pt-20">{children}</main>
 
         {/* Footer */}
         <Footer />
