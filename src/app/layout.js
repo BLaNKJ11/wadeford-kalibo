@@ -1,3 +1,5 @@
+"use client";
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
@@ -14,10 +16,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Wadeford Information System",
-  description: "A modern school information platform.",
-};
+// export const metadata = {
+//   title: "Wadeford Information System",
+//   description: "A modern school information platform.",
+// };
 
 export default function RootLayout({ children }) {
   return (
