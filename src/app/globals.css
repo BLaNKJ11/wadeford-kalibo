@@ -92,3 +92,7 @@ img.transition-transform {
 img.transition-transform:hover {
   transform: scale(1.05);
 }
+
+body {
+  background-color: var(--color-gray-100) /* oklch(0.967 0.003 264.542) = #f3f4f6 */;
+}
