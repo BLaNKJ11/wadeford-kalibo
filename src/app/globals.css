@@ -58,3 +58,37 @@
     --chart-5: 340 75% 55%;
   }
 }
+
+/* Add this to your global CSS file or a CSS module */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add this to your global CSS file or a CSS module */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+}
+
+.animate-fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+img.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+img.transition-transform:hover {
+  transform: scale(1.05);
+}

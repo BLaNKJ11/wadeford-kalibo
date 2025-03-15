@@ -2,6 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+import AnnouncementSection from '@/components/AnnouncementSection';
+import LatestUpdatesSection from '@/components/LatestUpdatesSection';
+import NewsSection from '@/components/NewsSection';
 
 const slides = [
   { image: '/assets/hero-bg1.JPG', title: 'Empowering Education for the Future', text: 'Your one-stop portal for school information and management.' },
@@ -21,12 +25,13 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      
       {/* Hero Slider */}
       <section className="relative w-full h-[90vh] flex items-center justify-center text-center text-white overflow-hidden z-10">
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
+            className={`absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-1000 bg-fixed ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
             style={{ backgroundImage: `url('${slide.image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
             <div className="bg-black/50 absolute inset-0"></div>
@@ -39,9 +44,9 @@ export default function Home() {
       </section>
       
       {/* Three Column Section */}
-      <section className="py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <section className="py-12 px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
-          { title: 'Huge Campus', image: '/assets/campus.jpg', text: 'Our School has a very big campus area for students to play outdoor games. It&apos;s important to improve their physical body of students, school conduct PT (Physical Training) event on every Saturday.' },
+          { title: 'Huge Campus', image: '/assets/campus.jpg', text: 'Our School has a very big campus area for students to play outdoor games. It\'s important to improve their physical body of students, school conduct PT (Physical Training) event on every Saturday.' },
           { title: 'Comfortable Classrooms', image: '/assets/classroom.jpg', text: 'All the latest facility are provided by Wadeford, the school has big buildings with advanced classroom where students can sit comfortable and study to make their future bride.' },
           { title: 'Experienced Teachers', image: '/assets/teachers.jpg', text: 'All the faculties are extremely intelligent and supportive. They teach every student very transparently and friendly. All the teachers are well qualified and expert in their subjects.' }
         ].map((item, index) => (
@@ -54,6 +59,18 @@ export default function Home() {
           </div>
         ))}
       </section>
+
+      
+
+      {/* Announcement Section */}
+      <AnnouncementSection />
+
+      {/* Latest Updates Section
+      <LatestUpdatesSection /> */}
+
+      {/* News Section */}
+      <NewsSection />
+      
     </div>
   );
 }
