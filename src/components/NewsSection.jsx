@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from 'next/link';
 
 const newsItems = [
   { title: 'New Library Books', date: 'March 5, 2025', image: '/assets/announcementpic01.jpg', link: '/news/new-library-books' },
@@ -131,6 +132,7 @@ export default function NewsSection() {
       </div>
       <Slider {...newsSliderSettings}>
         {newsItems.map((news, index) => (
+          <Link key={index} href={news.link} legacyBehavior>
           <div key={index} className="p-4 cursor-pointer">
             <div className="flex flex-col items-start space-y-4 transition-transform duration-300">
               <div className="relative overflow-hidden w-full">
@@ -143,6 +145,7 @@ export default function NewsSection() {
               </div>
             </div>
           </div>
+          </Link>
         ))}
       </Slider>
 
@@ -158,6 +161,7 @@ export default function NewsSection() {
       </div>
       <Slider {...eventsSliderSettings}>
         {eventsItems.map((event, index) => (
+          <Link key={index} href={event.link} legacyBehavior>
           <div key={index} className="p-4 cursor-pointer">
             <div className="flex flex-col items-start space-y-4 transition-transform duration-300">
               <div className="relative overflow-hidden w-full">
@@ -169,6 +173,7 @@ export default function NewsSection() {
               </div>
             </div>
           </div>
+          </Link>
         ))}
       </Slider>
     </section>

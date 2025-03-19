@@ -29,7 +29,10 @@ export default function NavigationMenu() {
   return (
     <nav className={`bg-[#040873] shadow-md p-4 fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${isVisible ? 'transform translate-y-0' : 'transform -translate-y-full'}`}>
       <div className="container mx-auto flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold text-white">WadeFord</Link>
+        <Link href="/" className="flex items-center text-2xl font-bold text-white">
+          <img src="/assets/school-logo.jpg" alt="School Logo" className="h-10 w-10 mr-2" />
+          WADEFORD
+        </Link>
         
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="p-2">

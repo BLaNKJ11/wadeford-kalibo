@@ -13,6 +13,7 @@ export default function Footer() {
             <li><Link href="/about" className="hover:text-white">About</Link></li>
             <li><Link href="/teachers" className="hover:text-white">Teachers</Link></li>
             <li><Link href="/offers" className="hover:text-white">Our Offers</Link></li>
+            <li><Link href="/gallery" className="hover:text-white">Gallery</Link></li>
             <li><Link href="/login" className="hover:text-white">Login</Link></li>
           </ul>
         </div>
@@ -26,26 +27,26 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p className="mt-2 text-gray-400">Phone: +1 234 567 890</p>
-          <p className="mt-1 text-gray-400">Email: info@wadeford.edu</p>
+          <p className="mt-2 text-gray-400">Phone No.: 09518568888</p>
+          <p className="mt-1 text-gray-400">Telephone No.: 268-6474</p>
         </div>
 
         {/* Social Media Links */}
         <div>
           <h3 className="text-lg font-semibold">Follow Us</h3>
           <div className="flex flex-col items-center md:items-start space-y-3 mt-2">
-            <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
+            <Link href="https://facebook.com/wadefordschoolofficial" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
               <FaFacebook className="text-2xl" />
-              <span>facebook.com/wadeford</span>
+              <span>facebook.com/wadefordschoolofficial</span>
             </Link>
-            <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
+            {/* <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
               <FaTwitter className="text-2xl" />
               <span>twitter.com/wadeford</span>
             </Link>
             <Link href="/" target="_blank" className="flex items-center space-x-2 text-gray-400 hover:text-white">
               <FaInstagram className="text-2xl" />
               <span>instagram.com/wadeford</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

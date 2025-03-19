@@ -9,7 +9,7 @@ export default function About() {
     <div className="min-h-screen bg-background text-foreground">
       
       <div className="container mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold text-center mb-6">Start your childrens journey to a better future life</h1>
+        <h1 className="text-3xl font-bold text-center mb-6 text-[#040873]">Start your childrens journey to a better future life</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           <div className="space-y-6">
@@ -17,7 +17,7 @@ export default function About() {
             <div className="p-6 bg-gray-100 rounded-lg shadow-lg flex items-center space-x-4">
               <FaBullseye className="text-6xl text-blue-500" />
               <div>
-                <h2 className="text-2xl font-semibold mb-2">Mission</h2>
+                <h2 className="text-2xl font-semibold mb-2 text-[#040873]">Mission</h2>
                 <p className="text-gray-700">Wadeford School is a dynamic, innovative, and caring educational institution committed to the formation of leaders in accordance with Christian ideals.</p>
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function About() {
             <div className="p-6 bg-gray-100 rounded-lg shadow-lg flex items-center space-x-4">
               <FaEye className="text-6xl text-blue-500" />
               <div>
-                <h2 className="text-2xl font-semibold mb-2">Vision</h2>
+                <h2 className="text-2xl font-semibold mb-2 text-[#040873]">Vision</h2>
                 <p className="text-gray-700">A society transformed by principled Christian leaders deeply rooted in values formed by balanced intellectual and personal formation programs.</p>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function About() {
             <div className="p-6 bg-gray-100 rounded-lg shadow-lg flex items-center space-x-4">
               <FaDumbbell className="text-6xl text-blue-500" />
               <div>
-                <h2 className="text-2xl font-semibold mb-2">Physical Training Camps</h2>
+                <h2 className="text-2xl font-semibold mb-2 text-[#040873]">Physical Training Camps</h2>
                 <p className="text-gray-700">Our physical training camps are very large, allowing students to practice and stretch to strengthen their bodies.</p>
               </div>
             </div>

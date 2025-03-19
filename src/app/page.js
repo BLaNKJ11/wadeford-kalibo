@@ -8,9 +8,9 @@ import LatestUpdatesSection from '@/components/LatestUpdatesSection';
 import NewsSection from '@/components/NewsSection';
 
 const slides = [
-  { image: '/assets/hero-bg1.JPG', title: 'Empowering Education for the Future', text: 'Your one-stop portal for school information and management.' },
-  { image: '/assets/hero-bg2.JPG', title: 'Innovate & Learn', text: 'Bringing modern technology into education.' },
-  { image: '/assets/hero-bg3.JPG', title: 'Shape the Future', text: 'Empowering students and teachers alike.' }
+  { image: '/assets/hero-bg01.JPEG', title: 'Empowering Education for the Future', text: 'Your one-stop portal for school information and management.' },
+  { image: '/assets/hero-bg02.JPG', title: 'Innovate & Learn', text: 'Bringing modern technology into education.' },
+  { image: '/assets/hero-bg03.JPG', title: 'Shape the Future', text: 'Empowering students and teachers alike.' }
 ];
 
 export default function Home() {
