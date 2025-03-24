@@ -4,22 +4,24 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from 'next/link';
 
+
+
 const newsItems = [
-  { title: 'New Library Books', date: 'March 5, 2025', image: '/assets/announcementpic01.jpg', link: '/news/new-library-books' },
-  { title: 'Art Exhibition', date: 'February 28, 2025', image: '/assets/announcementpic01.jpg', link: '/news/art-exhibition' },
-  { title: 'Science Fair Winners', date: 'March 10, 2025', image: '/assets/announcementpic01.jpg', link: '/news/science-fair-winners' },
-  { title: 'Sports Day', date: 'May 15, 2025', image: '/assets/announcementpic01.jpg', link: '/news/sports-day' },
-  { title: 'PTA Meeting', date: 'April 5, 2025', image: '/assets/announcementpic01.jpg', link: '/news/pta-meeting' },
-  { title: 'School Renovation', date: 'March 1, 2025', image: '/assets/announcementpic01.jpg', link: '/news/school-renovation' },
+  { title: 'New Library Books', date: 'March 5, 2025', image: '/assets/gallerypics/gallerypicschool20.jpg', link: '/news/new-library-books' },
+  { title: 'Art Exhibition', date: 'February 28, 2025', image: '/assets/gallerypics/gallerypicschool11.jpg', link: '/news/art-exhibition' },
+  { title: 'Science Fair Winners', date: 'March 10, 2025', image: '/assets/gallerypics/gallerypicschool17.jpg', link: '/news/science-fair-winners' },
+  // { title: 'Sports Day', date: 'May 15, 2025', image: '/assets/sportsday.jpeg', link: '/news/sports-day' },
+  { title: 'PTA Meeting', date: 'April 5, 2025', image: '/assets/school-default-pic.jpeg', link: '/news/pta-meeting' },
+  { title: 'School Renovation', date: 'March 1, 2025', image: '/assets/school-default-pic.jpeg', link: '/news/school-renovation' },
 ];
 
 const eventsItems = [
-  { title: 'Spring Festival', date: 'April 10, 2025', image: '/assets/announcementpic01.jpg', link: '/events/spring-festival' },
-  { title: 'Music Concert', date: 'May 20, 2025', image: '/assets/announcementpic01.jpg', link: '/events/music-concert' },
-  { title: 'Art Workshop', date: 'June 15, 2025', image: '/assets/announcementpic01.jpg', link: '/events/art-workshop' },
-  { title: 'Science Exhibition', date: 'July 25, 2025', image: '/assets/announcementpic01.jpg', link: '/events/science-exhibition' },
-  { title: 'Sports Meet', date: 'August 30, 2025', image: '/assets/announcementpic01.jpg', link: '/events/sports-meet' },
-  { title: 'Drama Play', date: 'September 10, 2025', image: '/assets/announcementpic01.jpg', link: '/events/drama-play' },
+  { title: 'Ani ng Sining: Diwa At Damdamin', date: 'January 10, 2025', image: '/assets/eventspic/event01.JPG', link: '/events/Ani-ng-Sining' },
+  { title: 'Music Concert', date: 'May 20, 2025', image: '/assets/eventspic/event02.JPG', link: '/events/music-concert' },
+  { title: 'Art Workshop', date: 'June 15, 2025', image: '/assets/eventspic/event03.JPG', link: '/events/art-workshop' },
+  // { title: 'Science Exhibition', date: 'July 25, 2025', image: '/assets/gallerypics/gallerypicschool17.jpg', link: '/events/science-exhibition' },
+  { title: 'Sports Meet', date: 'September 30, 2024', image: '/assets/sportsday.jpeg', link: '/events/sports-meet' },
+  // { title: 'Drama Play', date: 'September 10, 2025', image: '/assets/school-default-pic.jpeg', link: '/events/drama-play' },
 ];
 
 const newsSliderSettings = {

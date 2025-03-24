@@ -4,14 +4,14 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Image from 'next/image';
 
 const teachers = [
-  { name: 'Juan Dela Cruz', rank: 'Professor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Associate Professor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Assistant Professor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Lecturer', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Senior Lecturer', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Professor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Associate Professor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Assistant Professor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
 ];
 
 export default function Teachers() {

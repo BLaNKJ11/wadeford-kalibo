@@ -13,25 +13,25 @@ export async function generateStaticParams() {
 export default function AnnouncementPage({ params }) {
   const announcements = [
     {
-      id: 'school-reopening',
-      title: 'School Reopening',
+      id: 'School-Advisory1',
+      title: 'School Advisory: No Complete Uniform and ID, No Entry',
       date: 'March 20, 2025',
-      description: 'The school will reopen on March 20, 2025, for the new academic year. We are excited to welcome back all students and staff. Please ensure that you have completed all necessary preparations for the new term. The school has implemented new safety protocols to ensure the health and well-being of everyone. We look forward to a productive and successful year ahead. For more information, please visit our website or contact the school office.',
-      image: '/assets/announcementpic01.jpg',
+      description: 'To maintain discipline and uphold school policies, all students are reminded that wearing a complete uniform and presenting a valid school ID is mandatory for entry into the campus. This rule ensures a safe, organized, and professional learning environment. Effective immediately, students who fail to comply will not be allowed to enter the school premises. Exceptions will only be made for valid reasons, subject to approval by school authorities. We urge everyone to follow this policy strictly and prepare accordingly before coming to school. Thank you for your cooperation in maintaining order and discipline in our institution. For concerns or special cases, please contact the school administration.',
+      image: '/assets/announcements/School-Announcements-1.JPG',
     },
     {
-      id: 'pta-meeting',
-      title: 'PTA Meeting',
-      date: 'April 5, 2025',
-      description: 'The PTA meeting will be held on April 5, 2025, at 10:00 AM in the school auditorium. All parents and guardians are encouraged to attend. This meeting will provide an opportunity to discuss important school matters, upcoming events, and ways to support our students. Your participation and input are highly valued. Refreshments will be provided. We look forward to seeing you there.',
-      image: '/assets/announcementpic01.jpg',
+      id: 'School-Advisory2',
+      title: 'School Advisory: No Classes on March 31 for Eid al-Fitr',
+      date: 'March 24, 2025',
+      description: 'In observance of Eid al-Fitr, there will be no classes on March 31. This holiday marks the end of Ramadan and is a time for reflection, gratitude, and celebration for our Muslim community. Regular classes will resume on the following school day. We encourage everyone to use this time for rest, reflection, and spending quality moments with family and friends. Thank you for your attention, and we wish a joyful and blessed Eid al-Fitr to all who celebrate!',
+      image: '/assets/announcements/School-Announcements-2.JPG',
     },
     {
-      id: 'sports-day',
-      title: 'Sports Day',
+      id: 'School-Advisory3',
+      title: 'School Advisory: No Classes on March 18 for Panay Liberation Day',
       date: 'May 15, 2025',
-      description: 'Join us for the annual Sports Day event on May 15, 2025. This fun-filled day will include a variety of athletic competitions, games, and activities for students of all ages. Parents and families are welcome to attend and cheer on the participants. There will be food stalls, music, and entertainment throughout the day. Don’t miss this exciting event that celebrates sportsmanship and school spirit. We hope to see you there!',
-      image: '/assets/announcementpic01.jpg',
+      description: 'In commemoration of Panay Liberation Day, there will be no classes on March 18. This day honors the historic liberation of Panay Island during World War II and pays tribute to the bravery of those who fought for freedom. Regular classes will resume on the next school day. Let us take this time to reflect on our history and appreciate the sacrifices made for our nation\’s independence.',
+      image: '/assets/announcements/School-Announcements-3.JPG',
     },
   ];
 
@@ -48,7 +48,7 @@ export default function AnnouncementPage({ params }) {
         <div className="md:col-span-2 space-y-4">
           <h2 className="text-2xl font-semibold text-[#040873]">{announcement.title}</h2>
           <p className="text-gray-600 ">{announcement.date}</p>
-          <img src={announcement.image} alt={announcement.title} className="w-full h-64 object-cover mt-4 rounded-lg shadow-lg" />
+          <img src={announcement.image} alt={announcement.title} className="w-full object-cover mt-4 rounded-lg shadow-lg" />
           <p className="mt-6 text-justify">{announcement.description}</p>
         </div>
         <div className="space-y-4">
