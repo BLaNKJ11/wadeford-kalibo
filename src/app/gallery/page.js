@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -71,10 +72,13 @@ export default function GalleryPage() {
         <div ref={galleryRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {galleryItems.map((item, index) => (
             <div key={index} className="gallery-item relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 opacity-0">
-              <img src={item.image} alt={item.title} className="w-full h-60 object-cover" />
-              {/* <div className="absolute inset-0 bg-[#040873] bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <h3 className="text-white text-lg font-semibold">{item.title}</h3>
-              </div> */}
+              <Image
+                src={item.image}
+                alt={item.title}
+                width={400}
+                height={300}
+                className="w-full h-60 object-cover"
+              />
             </div>
           ))}
         </div>
