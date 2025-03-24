@@ -9,7 +9,7 @@ export default function About() {
     <div className="min-h-screen bg-background text-foreground">
       <div className="container mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold text-center mb-6 text-[#040873]">
-          Start your children\'s journey to a better future life
+          Start your children&apos;s journey to a better future life
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
@@ -66,7 +66,7 @@ export default function About() {
             In Kalibo, Aklan, a small group of concerned parents searched for a school for their children. It was a dream school they were looking for, and none met their expectations.
           </p>
           <p className="text-gray-700 leading-relaxed mt-4">
-            They found a guide - Bishop Gabriel V. Reyes, who introduced them in January 2003 to some members of Opus Dei and PAREF, Parents for Education Foundation, which operates exclusive schools like Woodrose, Southridge, Northfield, Westbridge, Rosehill, Ridgefield, etc. In that meeting, they discussed the possibility of having a PAREF-assisted school in Aklan. Two months later, the Wadeford Foundation, Inc. was organized and opened in June 2003 a Preparatory School (Nursery, Junior Kindergarten, Senior Kindergarten) and Grades 1-5 of the Elementary School. In the academic year 2004-2005, the school opened a Toddler\'s class and Grade six. Due to the increasing number of enrollees in the Preschool, the Preschool Annex building was inaugurated on August 3, 2006.
+            They found a guide - Bishop Gabriel V. Reyes, who introduced them in January 2003 to some members of Opus Dei and PAREF, Parents for Education Foundation, which operates exclusive schools like Woodrose, Southridge, Northfield, Westbridge, Rosehill, Ridgefield, etc. In that meeting, they discussed the possibility of having a PAREF-assisted school in Aklan. Two months later, the Wadeford Foundation, Inc. was organized and opened in June 2003 a Preparatory School (Nursery, Junior Kindergarten, Senior Kindergarten) and Grades 1-5 of the Elementary School. In the academic year 2004-2005, the school opened a Toddler&apos;s class and Grade six. Due to the increasing number of enrollees in the Preschool, the Preschool Annex building was inaugurated on August 3, 2006.
           </p>
           <p className="text-gray-700 leading-relaxed mt-4">
             After five long years of being established and with the strong commitment of the parents, Board of Directors, and teachers to the Mission and Vision of the school, a plan of having a new site was proposed. It was presented during the Parent Coordinators' Get Together on August 2, 2007. The blessing of the new site and the groundbreaking for the new building was on January 9, 2008, on the birth anniversary of St. Josemaria Escriva, Patron Saint of Wadeford School. The new school site is located in Andagao, Kalibo, Aklan. After four months of construction, the new Wadeford School finally became a reality. On June 16, 2008, the new Wadeford started its operation.
