@@ -34,7 +34,7 @@ export default function EventPage({ params }) {
       title: 'Project: ChristCHARITY Year 1',
       date: 'February 15, 2025',
       description: 'Project: ChristCHARITY Year 1 successfully brought joy and spread love to the children of Ati Village with warm clothes, fun games, and sweet treats on December 15, 2024, ensuring that every child left with a smile on their face and warmth in their heart. The Interact Club of Wadeford School, along with the Supreme Secondary Learner Government of Wadeford School, had come up with a partnership project that radiates happiness and creates unforgettable memories around the community of Ati Village in Aliputos, Numancia, Aklan. The two organizations organized two exciting games for the children, with sweet treats and biscuits given as prizes. Following the fun-filled activities, they donated comfortable and warm clothes to the community. With this, we would like to extend our deepest gratitude to the Rotary Club of Kalibo for giving us the opportunity to create a difference in the lives of the children of Ati Village, a meaningful change that could have a beautiful impact on the youth. May this project inspire each of us to continue spreading happiness and love in our own ways. Let it serve as a reminder that even the smallest acts of kindness can help shape a brighter future for all.',
-      image: '/assets/announcementpic03.jpg',
+      image: '/assets/eventspic/event03.JPG',
     },
     // {
     //   id: 'science-exhibition',
@@ -72,7 +72,7 @@ export default function EventPage({ params }) {
         <div className="md:col-span-2 space-y-4">
           <h2 className="text-2xl font-semibold text-[#040873]">{event.title}</h2>
           <p className="text-gray-600">{event.date}</p>
-          <img src={event.image} alt={event.title} className="w-full h-64 object-cover mt-4 rounded-lg shadow-lg" />
+          <img src={event.image} alt={event.title} className="w-full object-cover mt-4 rounded-lg shadow-lg" />
           <p className="mt-6 text-justify">{event.description}</p>
         </div>
         <div className="space-y-4">

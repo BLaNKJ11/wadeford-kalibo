@@ -17,8 +17,8 @@ const newsItems = [
 
 const eventsItems = [
   { title: 'Ani ng Sining: Diwa At Damdamin', date: 'January 10, 2025', image: '/assets/eventspic/event01.JPG', link: '/events/Ani-ng-Sining' },
-  { title: 'Music Concert', date: 'May 20, 2025', image: '/assets/eventspic/event02.JPG', link: '/events/music-concert' },
-  { title: 'Art Workshop', date: 'June 15, 2025', image: '/assets/eventspic/event03.JPG', link: '/events/art-workshop' },
+  { title: 'Community Journalism Project in Caano', date: 'May 20, 2025', image: '/assets/eventspic/event02.JPG', link: '/events/Community-Journalism-Project-in-Caano' },
+  { title: 'Project ChristCHARITY Year 1', date: 'June 15, 2025', image: '/assets/eventspic/event03.JPG', link: '/events/Project-ChristCHARITY-Year-1' },
   // { title: 'Science Exhibition', date: 'July 25, 2025', image: '/assets/gallerypics/gallerypicschool17.jpg', link: '/events/science-exhibition' },
   { title: 'Sports Meet', date: 'September 30, 2024', image: '/assets/sportsday.jpeg', link: '/events/sports-meet' },
   // { title: 'Drama Play', date: 'September 10, 2025', image: '/assets/school-default-pic.jpeg', link: '/events/drama-play' },
