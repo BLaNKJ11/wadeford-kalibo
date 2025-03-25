@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import AnnouncementSection from '@/components/AnnouncementSection';
 import LatestUpdatesSection from '@/components/LatestUpdatesSection';
 import NewsSection from '@/components/NewsSection';
+import Image from 'next/image'; // Import Image from next/image
 
 const slides = [
   { image: '/assets/hero-bg01.jpeg', title: 'Empowering Education for the Future', text: 'Your one-stop portal for school information and management.' },
@@ -51,7 +52,13 @@ export default function Home() {
           { title: 'Experienced Teachers', image: '/assets/column03.JPG', text: 'All the faculties are extremely intelligent and supportive. They teach every student very transparently and friendly. All the teachers are well qualified and expert in their subjects.' }
         ].map((item, index) => (
           <div key={index} className="flex flex-col items-center space-y-4 p-4 border border-gray-300 shadow-lg rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-            <img src={item.image} alt={item.title} className="w-full h-40 object-cover rounded-lg mt-0" />
+            <Image
+              src={item.image}
+              alt={item.title}
+              width={400}
+              height={300}
+              className="w-full h-40 object-cover rounded-lg mt-0"
+            />
             <div className="text-center">
               <h3 className="text-xl font-semibold">{item.title}</h3>
               <p className="mt-2 text-gray-600">{item.text}</p>
@@ -59,8 +66,6 @@ export default function Home() {
           </div>
         ))}
       </section>
-
-      
 
       {/* Announcement Section */}
       <AnnouncementSection />
