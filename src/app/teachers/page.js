@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Image from 'next/image';
 
 const teachers = [
-  { name: 'Dianne Daphnie Revesencio', rank: 'Teacher I', image: '/assets/teachers/Dianne_Daphnie_Revesencio.jpg', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Dianne Daphnie Revesencio', rank: 'Teacher I', image: '/assets/teachers/Dianne_Daphnie_Revesencio.JPG', facebook: '#', twitter: '#', instagram: '#' },
   { name: 'Lovely Mae Ropero', rank: 'Teacher I', image: '/assets/teachers/Lovely_Mae_Ropero.jpeg', facebook: '#', twitter: '#', instagram: '#' },
   { name: 'Reinan Rufin', rank: 'Teacher I', image: '/assets/teachers/Reinan_Rufin.jpeg', facebook: '#', twitter: '#', instagram: '#' },
   { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
