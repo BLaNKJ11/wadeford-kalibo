@@ -36,13 +36,13 @@ export default function NewsPage({ params }) {
       description: 'Congratulations to the winners of this year’s science fair! The event was a great success, with students presenting innovative projects and experiments. The winning projects will be displayed in the school lobby for the next two weeks. We are proud of all participants for their hard work and creativity.',
       image: '/assets/gallerypics/gallerypicschool17.jpg',
     },
-    {
-      id: 'sports-day',
-      title: 'Sports Day',
-      date: 'May 15, 2025',
-      description: 'Join us for the annual Sports Day event on May 15, 2025. This fun-filled day will include a variety of athletic competitions, games, and activities for students of all ages. Parents and families are welcome to attend and cheer on the participants. There will be food stalls, music, and entertainment throughout the day. Don’t miss this exciting event that celebrates sportsmanship and school spirit. We hope to see you there!',
-      image: '/assets/sportsday.jpeg',
-    },
+    // {
+    //   id: 'sports-day',
+    //   title: 'Sports Day',
+    //   date: 'May 15, 2025',
+    //   description: 'Join us for the annual Sports Day event on May 15, 2025. This fun-filled day will include a variety of athletic competitions, games, and activities for students of all ages. Parents and families are welcome to attend and cheer on the participants. There will be food stalls, music, and entertainment throughout the day. Don’t miss this exciting event that celebrates sportsmanship and school spirit. We hope to see you there!',
+    //   image: '/assets/sportsday.jpeg',
+    // },
     {
       id: 'pta-meeting',
       title: 'PTA Meeting',

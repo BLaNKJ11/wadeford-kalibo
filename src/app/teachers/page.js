@@ -4,14 +4,15 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Image from 'next/image';
 
 const teachers = [
-  { name: 'Dianne Daphnie Revesencio', rank: 'Teacher I', image: '/assets/teachers/Dianne_Daphnie_Revesencio.JPG', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Lovely Mae Ropero', rank: 'Teacher I', image: '/assets/teachers/Lovely_Mae_Ropero.jpeg', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Reinan Rufin', rank: 'Teacher I', image: '/assets/teachers/Reinan_Rufin.jpeg', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
-  { name: 'Juan Dela Cruz', rank: 'Teacher I', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+
+  { name: 'Reinan Rufin', department: 'Grade 12 STEM Class Advisor', image: '/assets/teachers/ReinanRufin.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Dianne Daphnie Revesencio', department: 'Grade 12 HUMMS Class Advisor', image: '/assets/teachers/DianneDaphnieRevesencio.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Isidro Renacido', department: 'Grade 12 GAS Class Advisor', image: '/assets/teachers/IsidroRenacido.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Kimberly Jane Jutic', department: 'Grade 12 ARTS & DESIGN Class Advisor', image: '/assets/teachers/KimberlyJaneJutic.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Lourdes Imaysay Icabandi', department: 'Grade 11 HUMMS Class Advisor', image: '/assets/teachers/LourdesImaysayIcabandi.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Niña Rose Bantaran', department: 'Grade 12 ABM Class Advisor', image: '/assets/blank-profile.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Geraldine Barte', department: 'Grade 11 STEM Class Advisor', image: '/assets/teachers/GeraldineBarte.png', facebook: '#', twitter: '#', instagram: '#' },
+  { name: 'Lovely Mae Ropero', department: 'Grade 8 Class Advisor', image: '/assets/teachers/LovelyMaeRopero.png', facebook: '#', twitter: '#', instagram: '#' },
 ];
 
 export default function Teachers() {
@@ -24,8 +25,8 @@ export default function Teachers() {
           {teachers.map((teacher, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center transition-transform duration-300 hover:scale-105 hover:shadow-xl">
               <Image src={teacher.image} alt={teacher.name} width={150} height={150} className="rounded-full mb-4" />
-              <h2 className="text-xl font-semibold mb-2">{teacher.name}</h2>
-              <p className="text-gray-600 mb-4">{teacher.rank}</p>
+              <h2 className="text-lg font-semibold mb-2">{teacher.name}</h2>
+              <p className="text-gray-600 mb-4 text-center">{teacher.department}</p>
               <div className="flex space-x-4">
                 <a href={teacher.facebook} className="text-blue-600 hover:text-blue-800 transition-colors duration-300"><FaFacebook size={24} /></a>
                 <a href={teacher.twitter} className="text-blue-400 hover:text-blue-600 transition-colors duration-300"><FaTwitter size={24} /></a>
